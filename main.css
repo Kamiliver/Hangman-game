@@ -1,0 +1,25 @@
+@import url("https://fonts.google.com/specimen/Open+Sans?query=open+sans");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #0f3443;
+}
+
+.container {
+    width: 850px;
+    background: #34e89e;
+    display: flex;
+    gap: 70px;
+    align-items: flex-end;
+    padding: 60px 40px;
+    border-radius: 10px;
+}
