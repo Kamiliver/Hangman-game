@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <div class="game-modal">
+        <div class="content">
+            <img src="images/lost.gif" alt="">
+            <h4>Game Over!</h4>
+            <p>The correct word was: <b>rainbow</b></p>
+            <button class="play-again">Play Again</button>
+        </div>
+    </div>
     <div class="container">
         <div class="hangman-box">
             <img src="images/hangman-0.svg" alt="hangman-img">
@@ -16,7 +24,7 @@
             <ul class="word-display">
                 <li class="letter"></li>
                 <li class="letter"></li>
-                <li class="letter"></li>
+                <li class="letter guessed">a</li>
                 <li class="letter"></li>
                 <li class="letter"></li>
                 <li class="letter"></li>
@@ -26,7 +34,7 @@
                 Hint: 
                 <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b>
             </h4>
-            <h4 class="hint-text">
+            <h4 class="guesses-text">
                 Incorrect guesses: 
                 <b>0 / 6</b>
             </h4>
